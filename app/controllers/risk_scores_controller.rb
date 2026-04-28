@@ -19,11 +19,11 @@ class RiskScoresController < ApplicationController
     permitted = params.permit(
       customer: [
         :customer_type,
-        { card: [:country, :funding, :age_months] },
-        { history: [:successful_collections, :failed_collections, :days_since_last_successful_payment,
-                    :average_order_value_cents, { recent_failed_reasons: [] }] }
+        { card: [ :country, :funding, :age_months ] },
+        { history: [ :successful_collections, :failed_collections, :days_since_last_successful_payment,
+                    :average_order_value_cents, { recent_failed_reasons: [] } ] }
       ],
-      collection: [:amount_cents, :scheduled_at]
+      collection: [ :amount_cents, :scheduled_at ]
     )
 
     raise ActionController::ParameterMissing.new(:customer) if permitted[:customer].blank?

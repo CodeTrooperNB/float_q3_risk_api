@@ -6,7 +6,7 @@ class RiskScorerTest < ActiveSupport::TestCase
 
     assert_equal 15, result.fetch(:risk_score)
     assert_equal "low", result.fetch(:risk_band)
-    assert_equal ["Customer has a stable recent collection profile"], result.fetch(:reasons)
+    assert_equal [ "Customer has a stable recent collection profile" ], result.fetch(:reasons)
   end
 
   test "returns a medium-risk profile for mixed signals" do
