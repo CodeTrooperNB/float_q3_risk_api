@@ -2,6 +2,8 @@
 
 This repository contains a small Rails API proof of concept that scores collection risk before an instalment payment attempt.
 
+![Float Risk Scoring Infographic](public/infographic.jpg)
+
 ## Approach
 
 The current build intentionally stays simple:
