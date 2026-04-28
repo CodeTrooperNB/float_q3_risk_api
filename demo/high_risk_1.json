@@ -1,0 +1,24 @@
+{
+  "customer": {
+    "customer_type": "new",
+    "card": {
+      "country": "GB",
+      "funding": "prepaid",
+      "age_months": 60
+    },
+    "history": {
+      "successful_collections": 2,
+      "failed_collections": 4,
+      "days_since_last_successful_payment": 52,
+      "average_order_value_cents": 18000,
+      "recent_failed_reasons": [
+        "expired_card",
+        "insufficient_funds"
+      ]
+    }
+  },
+  "collection": {
+    "amount_cents": 34000,
+    "scheduled_at": "2026-04-28"
+  }
+}

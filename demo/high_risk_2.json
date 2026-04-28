@@ -1,0 +1,21 @@
+{
+  "customer": {
+    "customer_type": "new",
+    "card": {
+      "country": "ZA",
+      "funding": "prepaid",
+      "age_months": 18
+    },
+    "history": {
+      "successful_collections": 7,
+      "failed_collections": 1,
+      "days_since_last_successful_payment": 50,
+      "average_order_value_cents": 16000,
+      "recent_failed_reasons": []
+    }
+  },
+  "collection": {
+    "amount_cents": 26000,
+    "scheduled_at": "2026-04-20"
+  }
+}

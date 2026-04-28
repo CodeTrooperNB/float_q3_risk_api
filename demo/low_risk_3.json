@@ -1,0 +1,21 @@
+{
+  "customer": {
+    "customer_type": "new",
+    "card": {
+      "country": "ZA",
+      "funding": "credit",
+      "age_months": 9
+    },
+    "history": {
+      "successful_collections": 5,
+      "failed_collections": 0,
+      "days_since_last_successful_payment": 12,
+      "average_order_value_cents": 10000,
+      "recent_failed_reasons": []
+    }
+  },
+  "collection": {
+    "amount_cents": 12500,
+    "scheduled_at": "2026-04-11"
+  }
+}

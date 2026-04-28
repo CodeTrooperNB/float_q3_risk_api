@@ -1,0 +1,23 @@
+{
+  "customer": {
+    "customer_type": "new",
+    "card": {
+      "country": "ZA",
+      "funding": "debit",
+      "age_months": 30
+    },
+    "history": {
+      "successful_collections": 11,
+      "failed_collections": 1,
+      "days_since_last_successful_payment": 18,
+      "average_order_value_cents": 22000,
+      "recent_failed_reasons": [
+        "insufficient_funds"
+      ]
+    }
+  },
+  "collection": {
+    "amount_cents": 25000,
+    "scheduled_at": "2026-04-18"
+  }
+}
