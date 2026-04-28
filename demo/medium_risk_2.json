@@ -1,0 +1,21 @@
+{
+  "customer": {
+    "customer_type": "returning",
+    "card": {
+      "country": "ZA",
+      "funding": "credit",
+      "age_months": 16
+    },
+    "history": {
+      "successful_collections": 14,
+      "failed_collections": 1,
+      "days_since_last_successful_payment": 30,
+      "average_order_value_cents": 20000,
+      "recent_failed_reasons": []
+    }
+  },
+  "collection": {
+    "amount_cents": 25000,
+    "scheduled_at": "2026-04-16"
+  }
+}
